@@ -25,7 +25,7 @@ export default function Home() {
             KARINA PARGA
           </Link>
           <div className="flex gap-8 text-xs font-bold tracking-widest uppercase text-deep-teal/80">
-            <Link href="#work" className="hover:text-deep-teal hover:drop-shadow-[0_0_5px_rgba(34,211,238,0.8)] transition-all">PROJECTS</Link>
+            <Link href="#work" className="hover:text-tropical-teal hover:drop-shadow-[0_0_5px_rgba(34,211,238,0.8)] transition-all">PROJECTS</Link>
             <Link href="#philosophy" className="hover:text-rose hover:drop-shadow-[0_0_5px_rgba(232,121,249,0.8)] transition-all">ABOUT</Link>
             <Link href="#contact" className="hover:text-blush hover:drop-shadow-[0_0_5px_rgba(250,204,21,0.8)] transition-all">CONTACT</Link>
           </div>
@@ -71,33 +71,33 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Project 1 */}
             <ProjectCard 
-              title="PROJECT_ONE"
-              description="Your first amazing project goes here. Describe what problem it solves and the tech you used to build it."
-              tags={["REACT", "NEXTJS", "TAILWIND"]}
+              title="Internal Framework Landing Page"
+              description="A webpage meant to showcase the Data&AI Ops in-house framework capabilities in a simple way for business and management level."
+              tags={["NEXTJS", "TAILWIND"]}
               color="teal"
               href="#"
             />
             {/* Project 2 */}
             <ProjectCard 
-              title="PROJECT_TWO"
-              description="Your second project showcase. Tell visitors what makes this project special and what you learned building it."
-              tags={["JAVASCRIPT", "API", "CSS"]}
+              title="Extra Fuel"
+              description="A web app tasked with displaying current fuel load and communication with dispatch for corrections, based on machine learning models."
+              tags={["NEXTJS", "SOCKETS", "ANT DESIGN"]}
               color="rose"
               href="#"
             />
             {/* Project 3 */}
             <ProjectCard 
-              title="PROJECT_THREE"
-              description="Another project to highlight your skills. Share the impact or results of this work."
-              tags={["TYPESCRIPT", "NODE", "EXPRESS"]}
+              title="Captured Value"
+              description="A webpage focused on visualizing the impact of data products on the company."
+              tags={["NEXTJS", "ANT DESIGN", "API"]}
               color="teal"
               href="#"
             />
             {/* Project 4 */}
             <ProjectCard 
-              title="PROJECT_FOUR"
-              description="Keep building and adding to your portfolio. Each project tells part of your developer story."
-              tags={["PYTHON", "DJANGO", "POSTGRESQL"]}
+              title="Unstabilized Approach"
+              description="A web app for visualizing landing data in various airports, where the goal was to identify outliers and potential risks."
+              tags={["PYTHON", "PLOTLY"]}
               color="rose"
               href="#"
             />
@@ -107,7 +107,7 @@ export default function Home() {
         {/* Philosophy / Approach */}
         <section id="philosophy" className="py-20 grid md:grid-cols-12 gap-12 border-t border-cyan-900/30">
           <div className="md:col-span-4 space-y-8">
-            <h2 className="text-2xl font-bold tracking-widest text-deep-teal drop-shadow-[0_0_8px_rgba(34,211,238,0.6)]">
+            <h2 className="text-2xl font-bold tracking-widest text-tropical-teal drop-shadow-[0_0_8px_rgba(34,211,238,0.6)]">
               {"// ABOUT_ME"}
             </h2>
             
@@ -130,22 +130,22 @@ export default function Home() {
               I’m a Software Engineer with 5 years of experience specialized in Frontend with an UX/UI approach. I want to collaborate with anyone that shares my passion for learning, ethical technology and the belief that people should be at the center of the design process.
             </p>
             <div className="p-6 bg-graphite border border-cyan-500/20 rounded-sm relative overflow-hidden">
-              <div className="absolute top-0 left-0 w-full h-1 bg-linear-to-r bg-rose" />
+              <div className="absolute top-0 left-0 w-full h-1 bg-linear-to-r bg-dull-rose" />
               <div className="grid grid-cols-2 gap-8 font-mono text-sm">
                 <div>
-                  <h3 className="text-deep-teal mb-4 tracking-widest uppercase text-xs border-b border-cyan-800 pb-2">STACK_TRACE</h3>
+                  <h3 className="text-tropical-teal mb-4 tracking-widest uppercase text-xs border-b border-cyan-800 pb-2">STACK_TRACE</h3>
                   <ul className="space-y-2 text-cyan-200/70">
-                    <li className="flex items-center gap-2"><span className="text-rose">›</span> JavaScript / Python / TypeScript</li>
+                    <li className="flex items-center gap-2"><span className="text-rose">›</span> TypeScript / Python / Arduino</li>
                     <li className="flex items-center gap-2"><span className="text-rose">›</span> React / Next.js / Node.js</li>
                     <li className="flex items-center gap-2"><span className="text-rose">›</span> Git / GitHub / VS Code</li>
                   </ul>
                 </div>
                 <div>
-                  <h3 className="text-deep-teal mb-4 tracking-widest uppercase text-xs border-b border-cyan-800 pb-2">CORE_BELIEFS</h3>
+                  <h3 className="text-tropical-teal mb-4 tracking-widest uppercase text-xs border-b border-cyan-800 pb-2">CORE_BELIEFS</h3>
                   <ul className="space-y-2 text-cyan-200/70">
                     <li className="flex items-center gap-2"><span className="text-rose">›</span> Always learning</li>
-                    <li className="flex items-center gap-2"><span className="text-rose">›</span> Ship &gt; Perfect</li>
-                    <li className="flex items-center gap-2"><span className="text-rose">›</span> Open source contributor</li>
+                    <li className="flex items-center gap-2"><span className="text-rose">›</span> Love collaborating</li>
+                    <li className="flex items-center gap-2"><span className="text-rose">›</span> Enjoy teaching</li>
                   </ul>
                 </div>
               </div>
@@ -160,7 +160,7 @@ export default function Home() {
               LET'S  <span className="text-transparent bg-clip-text bg-linear-to-r from-blush via-tropical-teal to-deep-teal">TALK</span>
             </h2>
             <p className="text-cyan-200/60 text-lg">
-              Any fun idea? Just <a href="mailto:karina.parga94@gmail.com" className="font-bold text-tropical-teal">send me an email</a> and tell me about it. I'll gladly come back to you with something.
+              Any fun idea? Just <a href="mailto:karina.parga94@gmail.com" className="font-bold text-rose">send me an email</a> and tell me about it. I'll gladly come back to you with something.
             </p>
             <div className="flex flex-col items-center gap-6">
               <div className="flex items-center gap-8 pt-4">
@@ -171,7 +171,6 @@ export default function Home() {
           </div>
         </section>
       </main>
-
       <footer className="py-8 text-center text-xs font-mono text-cyan-900/50 border-t border-cyan-900/20">
         <p>Base made with ❤️ by <a href="https://gh.io/gfb" target="_blank" rel="noopener noreferrer" className="text-cyan-700 hover:text-deep-teal hover:drop-shadow-[0_0_5px_rgba(34,211,238,0.8)] transition-all">GitHub for Beginners</a> and <a href="https://gh.io/gfb-copilot" target="_blank" rel="noopener noreferrer" className="text-cyan-700 hover:text-deep-teal hover:drop-shadow-[0_0_5px_rgba(34,211,238,0.8)] transition-all">GitHub Copilot</a></p>
       </footer>
