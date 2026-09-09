@@ -8,6 +8,14 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-tropical-teal: #68B6A9;
+  --color-deep-teal: #41786F;
+  --color-granite: #556761;
+  --color-graphite: #272A29;
+  --color-shadow-gray: #231E1E;
+  --color-blush: #FAEBEB;
+  --color-dull-rose: #D3A9A6;
+  --color-rose: #F5B8B8;
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
