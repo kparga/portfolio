@@ -4,7 +4,7 @@ import ProjectCard from "./components/ProjectCard";
 import ArrowRightIcon from "./components/ArrowRightIcon";
 import SocialLink from "./components/SocialLink";
 
-const basePath = process.env.NODE_ENV === "production" ? "/gfbs3-portfolio-demo" : "";
+const basePath = process.env.NODE_ENV === "production" ? "/portfolio" : "";
 
 export default function Home() {
   return (
