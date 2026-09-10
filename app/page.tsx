@@ -44,7 +44,7 @@ export default function Home() {
             </h1>
           </div>
           <p className="text-lg md:text-xl text-cyan-100/70 max-w-2xl leading-relaxed font-light border-l-2 border-rose pl-6">
-            I'm a software engineer, with big love for frontend and user experience.
+            I'm a software engineer, with big love for frontend development and user experience.
           </p>
           <div className="pt-8 flex gap-6">
             <Link 
@@ -160,7 +160,7 @@ export default function Home() {
               LET'S  <span className="text-transparent bg-clip-text bg-linear-to-r from-blush via-tropical-teal to-deep-teal">TALK</span>
             </h2>
             <p className="text-cyan-200/60 text-lg">
-              Any fun idea? Just <a href="mailto:karina.parga94@gmail.com" className="font-bold text-rose">send me an email</a> and tell me about it. I'll gladly come back to you with something.
+              Have any fun ideas? Just <a href="mailto:karina.parga94@gmail.com" className="font-bold text-rose">send me an email</a> and tell me about it. I'll gladly come back to you with something.
             </p>
             <div className="flex flex-col items-center gap-6">
               <div className="flex items-center gap-8 pt-4">
