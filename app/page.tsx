@@ -111,10 +111,10 @@ export default function Home() {
               {"// ABOUT_ME"}
             </h2>
             
-            {/* Profile Image - Replace src with your image in /public */}
+           {/*  {/* Profile Image - Replace src with your image in /public 
             <div className="relative w-full aspect-4/5 border border-cyan-500/30 rounded-sm overflow-hidden bg-cyan-950/30 group">
-              <div className="absolute inset-0 bg-[linear-gradient(to_bottom,transparent_0%,rgba(5,5,16,0.8)_100%)] z-10" />
-              {/* Scanline effect */}
+              <div className="absolute inset-0 bg-[linear-gradient(to_bottom,transparent_0%,rgba(5,5,16,0.8)_100%)] z-10" />*/}
+              {/* Scanline effect 
               <div className="absolute inset-0 bg-[linear-gradient(to_bottom,rgba(34,211,238,0.05)_1px,transparent_1px)] bg-size-[100%_4px] z-20 pointer-events-none" />
               
               <Image 
@@ -123,7 +123,7 @@ export default function Home() {
                 fill
                 className="object-cover z-0 opacity-60 group-hover:opacity-100 transition-all duration-500 grayscale group-hover:grayscale-0"
               />
-            </div>
+            </div> */}
           </div>
           <div className="md:col-span-8 space-y-8 text-cyan-100/80 leading-relaxed font-light">
             <p>
